@@ -1,0 +1,23 @@
+html {
+  font-size: 100%;
+  font-family: 'Overpass', sans-serif;
+  background-color: #121417;
+}
+
+#rating_component {
+  background-color: #252d37;
+}
+
+#thank_you {
+  background-color: #252d37;
+}
+
+p {
+  font-size: 15px;
+  color: #7c8798;
+}
+
+h1 {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
