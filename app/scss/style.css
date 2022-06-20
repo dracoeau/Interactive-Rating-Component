@@ -18,7 +18,7 @@ body {
   width: 350px;
   height: 350px;
   border-radius: 30px;
-  padding: 30px;
+  padding: 30px 30px 30px 30px;
 }
 
 #icon_star {
@@ -41,20 +41,52 @@ body {
   border: None;
   color: #7c8798;
   text-align: center;
-  margin: 10px;
+  margin-right: 27px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-#submit {
+#buttons_group button:last-child {
+  margin-right: 0px;
+}
+
+#buttons_group button:hover {
+  background-color: #fb7413;
+  color: white;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#buttons_group button:active {
+  background-color: #7c8798;
+  color: white;
+}
+
+#buttons_group button:focus {
+  background-color: #7c8798;
+  color: white;
+}
+
+#submit_button button {
   border-radius: 20px;
   background-color: #fb7413;
   width: 100%;
-  height: 45px;
+  height: 46px;
   border: None;
   color: white;
-  text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Overpass', sans-serif;
-  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+}
+
+#submit_button button:hover {
+  background-color: white;
+  color: #fb7413;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 #thank_you {
