@@ -4,8 +4,57 @@ html {
   background-color: #121417;
 }
 
+body {
+  position: relative;
+}
+
 #rating_component {
+  background-color: #1c2027;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 350px;
+  height: 350px;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+#icon_star {
   background-color: #252d37;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+#buttons_group {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#buttons_group button {
+  border-radius: 50%;
+  background-color: #252d37;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border: None;
+  color: #7c8798;
+  text-align: center;
+  margin: 10px;
+}
+
+#submit {
+  border-radius: 20px;
+  background-color: #fb7413;
+  width: 100%;
+  height: 45px;
+  border: None;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
 }
 
 #thank_you {
@@ -15,9 +64,15 @@ html {
 p {
   font-size: 15px;
   color: #7c8798;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 h1 {
   color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

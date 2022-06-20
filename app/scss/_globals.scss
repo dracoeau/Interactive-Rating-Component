@@ -4,8 +4,56 @@ html {
     background-color: $very_dark_blue;
 }
 
+body{
+    position:relative;
+}
+
 #rating_component{
+    background-color: mix($dark_blue, $very_dark_blue);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:350px;
+    height:350px;
+    border-radius: 30px;
+    padding:30px;
+}
+
+#icon_star{
     background-color: $dark_blue;
+    border-radius: 50px;
+    padding:15px;
+}
+
+#buttons_group{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+#buttons_group button{
+    border-radius: 50%;
+    background-color: $dark_blue;
+    display: inline-block;
+    width:45px;
+    height:45px;
+    border:None;
+    color: $medium_grey;
+    text-align: center;
+    margin:10px;
+}
+
+#submit{
+    border-radius: 20px;
+    background-color: $orange;
+    width:100%;
+    height:45px;
+    border:None;
+    color: $white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
 }
 
 #thank_you{
@@ -15,8 +63,9 @@ html {
 p{
     font-size: 15px;
     color: $medium_grey;
+    justify-content: center;
 }
-
 h1{
     color: $white;
+    justify-content: center;
 }
